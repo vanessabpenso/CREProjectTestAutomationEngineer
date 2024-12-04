@@ -1,0 +1,11 @@
+pageObjects\NavigationBar.class
+pageObjects\SignUpPage.class
+petStoreECommerce\TestRunner.class
+setup\SetupBrowser.class
+pageObjects\ShoppingCartPage.class
+petStoreECommerce\steps\PetStoreECommerceSteps.class
+pageObjects\WelcomePage.class
+pageObjects\HomePage.class
+pageObjects\CheckoutPage.class
+pageObjects\SignInPage.class
+pageObjects\ProductPage.class

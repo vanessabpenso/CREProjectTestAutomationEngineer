@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="9.119" tests="2" skipped="0" failures="0" errors="0">
+<testcase classname="Verify main functionalities of Pet Store website" name="Login successfully with existing user on different browsers - Example #1.1" time="4.866">
+<system-out><![CDATA[
+Given I navigate to the PetStore login page with "chrome"...................passed
+When I enter the username "JQuim_3" and password "Pass666"..................passed
+And I click the Login button................................................passed
+Then I should be logged in and see "Welcome Joaquim!" on the page...........passed
+]]></system-out>
+</testcase>
+<testcase classname="Verify main functionalities of Pet Store website" name="Login successfully with existing user on different browsers - Example #1.2" time="8.821">
+<system-out><![CDATA[
+Given I navigate to the PetStore login page with "firefox"..................passed
+When I enter the username "MariliaB" and password "Pass999".................passed
+And I click the Login button................................................passed
+Then I should be logged in and see "Welcome Marilia!" on the page...........passed
+]]></system-out>
+</testcase>
+</testsuite>
