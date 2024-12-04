@@ -45,10 +45,11 @@ To run a specific scenario from the feature file use
 
 After, these steps run `allure serve target/surefire-reports` to have the allure report for the test runs.
 
-The project can also run on Jenkins, for that the Jenkins needs to be installed and to verify the Allure report, Allure should be installed and setup on the Jenkins Pipeline.
+The project can also run on Jenkins, for that, Jenkins needs to be installed and to verify the Allure report, Allure should be installed and set up on the Jenkins Pipeline.
 
 ![image](https://github.com/user-attachments/assets/746f7bb4-b11d-4843-a218-19e6f4df50c6)
 
+![image](https://github.com/user-attachments/assets/a0228ce3-37cc-4bcc-acad-d6b0e841162a)
 
 The project uses Page Object Models so each page of the Pet Store website has its own class with the page elements and their interaction. All of the Java classes are in the Page Objects folder.
 Additionally, there is a folder to set up the browser so the tests can run in several browsers and also in parallel.
